@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.projectContainer {
+  position: relative;
+  width: 100%;
+  margin-right: 8px;
+}
+
+.projectContainer div {
+  border-top: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -2vw;
+  background-color: #b7ab98;
+  border-radius: 0.3rem;
+  box-shadow: 5px 10px 20px rgba(#fff, 0.5);
+}
+
+.projectContainer div p {
+  margin: 4px;
+  font-size: 4vw;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  padding-left: 2px;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    margin-bottom: 1%;
+  }
+
+  .projectContainer {
+    position: relative;
+    width: 100%;
+  }
+
+  .projectContainer div {
+    border-top: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: -2vw;
+    background-color: #b7ab98;
+    border-radius: 0.3rem;
+    box-shadow: 5px 10px 20px rgba(#fff, 0.5);
+  }
+
+  .projectContainer div p {
+    margin: 12px;
+    font-size: 2vw;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-style: normal;
+    padding-left: 2px;
+    text-transform: uppercase;
+    pointer-events: none;
+    color: black;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    margin-bottom: 1%;
+  }
+
+  .projectContainer {
+    position: relative;
+    width: 100%;
+  }
+
+  .projectContainer div {
+    border-top: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: -2vw;
+    background-color: #b7ab98;
+    border-radius: 0.3rem;
+    box-shadow: 5px 10px 20px rgba(#fff, 0.5);
+  }
+
+  .projectContainer div p {
+    margin: 20px;
+    font-size: 2vw;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-style: normal;
+    padding-left: 2px;
+    text-transform: uppercase;
+    pointer-events: none;
+    color: black;
+  }
+}

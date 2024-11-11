@@ -1,8 +1,17 @@
 import { useEffect, React } from "react";
 import Lenis from "lenis";
 import Intro from "../components/Intro";
-import Description from "../components/Description";
-import Section from "../components/Section";
+// import Description1 from "../components/Descriptions/Description1";
+// import Description2 from "../components/Descriptions/Description2";
+// import Description3 from "../components/Descriptions/Description3";
+// import Description4 from "../components/Descriptions/Description4";
+import AboutMeMobile from "../components/AboutMe/AboutMeMobile";
+import AboutMeDesktop from "../components/AboutMe/AboutMeDesktop";
+import SkillsMobile from "../components/Skills/SkillsMobile";
+import MojiProjects from "../components/MojiProjects/MojiProjects";
+
+import ContactMeMobile from "../components/ContactMe/ContactMeMobile";
+import ScDesktop from "../components/ContactMe/ScDesktop";
 
 export default function Home() {
   useEffect(() => {
@@ -18,9 +27,27 @@ export default function Home() {
   return (
     <>
       <Intro />
-      <Description />
-      <Section />
-      <div className="h-screen"></div>
+      {/* <Description1 /> */}
+      <div id="AboutMe" className="md:hidden">
+        <AboutMeMobile />
+      </div>
+      <div id="AboutMeDesktop" className="hidden md:block">
+        <AboutMeDesktop />
+      </div>
+
+      {/* <Description2 /> */}
+      <MojiProjects id="MyProjects" />
+      {/* <Description3 /> */}
+      <div className="md:hidden">
+        <SkillsMobile />
+      </div>
+      {/* <Description4 /> */}
+      <div id="ContactMe" className="md:hidden">
+        <ContactMeMobile />
+      </div>
+      <div id="ContactMeDesktop" className="hidden md:block">
+        <ScDesktop />
+      </div>
     </>
   );
 }
