@@ -86,13 +86,13 @@ const Card = ({
                 <a href={buttonGithub}>Github</a>
               </button>
             </div>
-            <div className="ml-12 mt-3 ">
+            <div className="ml-1 mt-3 ">
               <h1 className="text-start ">
                 Deployed on:{" "}
-                <span className="font-bold text-xl mt-1 mb-3 ">{deploy}</span>
+                <span className="font-bold text-md mt-1 mb-3 ">{deploy}</span>
               </h1>
               <h1 className="text-start  ">
-                Main app used: <span className="font-bold text-xl ">{app}</span>
+                Main app used: <span className="font-bold text-md ">{app}</span>
               </h1>
             </div>
           </div>

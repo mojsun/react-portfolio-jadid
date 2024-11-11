@@ -22,10 +22,10 @@ export default function ContactMe() {
   return (
     <div
       ref={container}
-      className="relative flex items-center justify-center  overflow-hidden"
+      className="relative flex items-center justify-center  overflow-hidden "
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
-      <div className="  bg-black h-screen left-0 w-full">
+      <div className="  bg-black h-screen left-0 w-full ">
         <video
           autoPlay
           loop
@@ -50,40 +50,43 @@ export default function ContactMe() {
               method="POST"
               className="flex flex-col justify-center items-center"
             >
-              <div className="mb-3 flex flex-row justify-between my-5 gap-20">
+              <div className="mb-3 flex flex-row justify-center my-5 gap-12 ml-3 mr-3">
                 <label
                   htmlFor="name"
-                  className="form-label flex-start font-bold  "
+                  className="form-label   flex-start font-bold  "
                 >
                   Name
                 </label>
                 <input
                   type="text"
-                  className="form-control pl-16 py-2 "
+                  className="form-control  py-2 flex-1"
                   id="name"
                   name="name"
                   required
                 ></input>
               </div>
-              <div className="mb-3 flex flex-row justify-between my-5 gap-4">
+              <div className="mb-3 flex flex-row justify-center  my-5 ">
                 <label htmlFor="email" className="form-label font-bold w-1/3">
                   Email address
                 </label>
                 <input
                   type="email"
-                  className="form-control pl-16 py-2"
+                  className="form-control  py-2 "
                   id="email"
                   name="email"
                   aria-describedby="emailHelp"
                   required
                 ></input>
               </div>
-              <div className="mb-3 gap-14 flex flex-row justify-between my-5 ">
-                <label htmlFor="message" className="form-label font-bold ">
+              <div className="mb-3 md:gap-14 flex flex-row justify-center  my-5 gap-5">
+                <label
+                  htmlFor="message"
+                  className="form-label font-bold md:ml-12 pr-2"
+                >
                   Message
                 </label>
                 <textarea
-                  className="form-control pl-14 py-2"
+                  className="form-control  py-2"
                   id="message"
                   name="message"
                   rows="3"
@@ -92,7 +95,7 @@ export default function ContactMe() {
               </div>
               <button
                 type="submit"
-                className="btn font-bold text-xl w-2/3 p-1  items-center ml-32"
+                className="btn font-bold text-xl w-2/3 p-1  items-center md:ml-32 ml-24"
               >
                 Submit
               </button>

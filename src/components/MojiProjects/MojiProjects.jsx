@@ -49,10 +49,10 @@ export default function Section() {
             <div className="flex flex-col md:flex md:flex-row items-center  md:justify-center  lg:justify-center text-center my-1 md:m-auto">
               <div className=" relative w-3/4 font-bold  md:ml-20">
                 <Link to="/frontend" className="md:hidden text-3xl">
-                  <h1 className="absolute top-52 left-1 md:top-64  text-decoration-none text-custom-font text-center z-10  text-shadow-custom-beige ">
+                  <h1 className="absolute top-52 -left-4 md:top-64  text-decoration-none text-custom-font text-center z-10  text-shadow-custom-beige ">
                     Front
                   </h1>
-                  <h1 className="absolute top-52 left-72  md:left-96 md:top-64 text-decoration-none text-custom-font text-center z-10 text-shadow-custom-beige">
+                  <h1 className="absolute top-52 left-60 md:left-96 md:top-64 text-decoration-none text-custom-font text-center z-10 text-shadow-custom-beige">
                     End
                   </h1>
                 </Link>
@@ -66,10 +66,10 @@ export default function Section() {
 
               <div className="w-3/4 font-bold   ">
                 <Link to="/backend" className="md:hidden text-3xl">
-                  <h1 className="absolute bottom-36 right-76 md:top-64 text-decoration-none text-custom-font text-center z-10 text-shadow-custom-beige">
+                  <h1 className="absolute bottom-36 right-72 md:top-64 text-decoration-none text-custom-font text-center z-10 text-shadow-custom-beige">
                     Back
                   </h1>
-                  <h1 className="absolute bottom-36 right-20 md:top-64 text-decoration-none text-custom-font text-center z-10 text-shadow-custom-beige">
+                  <h1 className="absolute bottom-36 right-12 md:top-64 text-decoration-none text-custom-font text-center z-10 text-shadow-custom-beige">
                     End
                   </h1>
                 </Link>

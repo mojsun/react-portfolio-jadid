@@ -75,11 +75,11 @@ export default function Intro() {
         </video>
         <div className="container  m-auto p-7 flex flex-col md:flex md:flex-row gap-5 align-center md:justify-between ">
           <div className="mt-20 md:mt-18 md:w-2/3 z-10">
-            <h1 className=" text-custom-font text-center text-4xl md:text-4xl lg:text-6xl pb-7 mt-6 xl:mt-32 lg:mt-24 font-bold  text-shadow-custom-beige ">
+            <h1 className=" text-custom-font text-center text-4xl md:text-4xl lg:text-6xl  mt-8 pt-4 xl:mt-32 lg:mt-24 font-bold  text-shadow-custom-beige ">
               Mozhdeh Khorashahi
             </h1>
             <h6
-              className="text-custom-font text-center text-xl mt-5 font-bold xl:mt-20 xl:text-3xl"
+              className="text-custom-font text-center text-xl mt-8 pt-8 font-bold xl:mt-20 xl:text-3xl"
               data-text="A software Developer"
               id="typing-text"
             ></h6>
