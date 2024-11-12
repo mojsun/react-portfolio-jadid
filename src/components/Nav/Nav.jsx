@@ -132,7 +132,7 @@ export default function Nav() {
               { label: "ContactMe", link: "/#ContactMeDesktop" },
               {
                 label: "MyResume",
-                link: "https://drive.google.com/file/d/13aiYvZHDL5PlRqOvZoBsbOIgTx6NSrOP/view?usp=sharing",
+                link: "https://drive.google.com/file/d/1vNUOPVgmlWt2LKkDPTcLrsNaPVsiw7jI/view?usp=sharing",
               },
             ].map((item) => (
               <div
@@ -175,7 +175,7 @@ export default function Nav() {
             { label: "ContactMe", link: "#ContactMe" },
             {
               label: "MyResume",
-              link: "https://drive.google.com/file/d/13aiYvZHDL5PlRqOvZoBsbOIgTx6NSrOP/view?usp=sharing",
+              link: "https://drive.google.com/file/d/1vNUOPVgmlWt2LKkDPTcLrsNaPVsiw7jI/view?usp=sharing",
             },
           ].map((item) => (
             <a

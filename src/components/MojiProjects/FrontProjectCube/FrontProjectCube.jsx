@@ -32,12 +32,12 @@ export default function ProjectCube() {
 function Cube({ progress }) {
   const mesh = useRef(null);
 
-  const texture_1 = useLoader(TextureLoader, "/images/project1.png");
-  const texture_2 = useLoader(TextureLoader, "/images/project3.png");
-  const texture_3 = useLoader(TextureLoader, "/images/project1.png");
-  const texture_4 = useLoader(TextureLoader, "/images/project3.png");
-  const texture_5 = useLoader(TextureLoader, "/images/project1.png");
-  const texture_6 = useLoader(TextureLoader, "/images/project3.png");
+  const texture_1 = useLoader(TextureLoader, "/images/project10.png");
+  const texture_2 = useLoader(TextureLoader, "/images/project9.png");
+  const texture_3 = useLoader(TextureLoader, "/images/project10.png");
+  const texture_4 = useLoader(TextureLoader, "/images/project7.png");
+  const texture_5 = useLoader(TextureLoader, "/images/project8.png");
+  const texture_6 = useLoader(TextureLoader, "/images/project9.png");
 
   return (
     <motion.mesh ref={mesh} rotation-y={progress} rotation-x={progress}>

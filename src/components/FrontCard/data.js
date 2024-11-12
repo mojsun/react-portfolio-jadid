@@ -3,7 +3,7 @@ export const projects = [
     title: "KMM",
     description:
       " An online website that help you To Know about a countries, you just need to enter the name of the country in the input area and the info will shows",
-    src: "Project9.png",
+    src: "project9.png",
     link: "https://kirkhagglund.github.io/kmm-countries/",
     color: "#e3ddcf",
     UsedApp: "Bulma,API,JS,HTML5,CSS3,",
@@ -16,7 +16,7 @@ export const projects = [
     title: "Foodies",
     description:
       "Online website about ordering food, different kind of foods and how happy their customers are.",
-    src: "Project10.png",
+    src: "project10.png",
     link: "https://foodination.vercel.app/",
     color: "#f2efe8",
     UsedApp: "Sass,Bootstrap,JS,HTML5,CSS3,",
@@ -38,7 +38,7 @@ export const projects = [
     title: "Planthora",
     description:
       "A website about buying and selling plants online via their apps and in person.They obtain good rating among others websites",
-    src: "Project7.png",
+    src: "project7.png",
     UsedApp: "Tailwind,JS,HTML5,CSS3,",
     link: "https://planthora.vercel.app/",
     color: "#6d6353",
@@ -51,7 +51,7 @@ export const projects = [
     title: "Apphistory",
     description:
       "A website that offers services such as making website and application for other bussinesses. also they have some classes for you to leanrn how to make websites yourself",
-    src: "Project8.png",
+    src: "project8.png",
     UsedApp: "Sass,Bootstrap,JS,HTML5,CSS3,",
     link: "https://tangerine-caramel-dd2054.netlify.app/",
     color: "#554c40",
