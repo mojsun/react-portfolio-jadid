@@ -3,7 +3,7 @@ export const projects = [
     title: "Travellers Choice",
     description:
       "A Travle's agency website which you can log in and now about different place you would like to see",
-    src: "Project12.png",
+    src: "Project13.png",
     link: "https://travelerschoice.herokuapp.com/",
     color: "#554c40",
     UsedApp: "JS,HTML5,CSS3,Bootstrap,Node,React,Stripe,Sass, Mongodb",
@@ -16,7 +16,7 @@ export const projects = [
     title: "Get Away ",
     description:
       "This is a website which you can find diffrent destination to travel log in and sign up and book and favourite place you want to see",
-    src: "Project13.png",
+    src: "Project12.png",
     link: "https://getaway.herokuapp.com/",
     color: "#6d6353",
     UsedApp: "Express,Bootstrap,Node,SQL,Sequelize,Handlebars",
